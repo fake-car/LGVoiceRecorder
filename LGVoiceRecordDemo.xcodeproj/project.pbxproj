@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D5113BE00E310012FD60FDA /* libPods-LGVoiceRecordDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F96A662BC68BE0AB8D3351 /* libPods-LGVoiceRecordDemo.a */; };
+		F6625EB8208B44E0004A151E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6625EB7208B44E0004A151E /* AppDelegate.m */; };
+		F6625EBB208B44E0004A151E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6625EBA208B44E0004A151E /* ViewController.m */; };
+		F6625EC0208B44E2004A151E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6625EBF208B44E2004A151E /* Assets.xcassets */; };
+		F6625EC6208B44E2004A151E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6625EC5208B44E2004A151E /* main.m */; };
+		F6881132208B4BE500088F6C /* PIVoiceRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6881131208B4BE500088F6C /* PIVoiceRecordViewController.m */; };
+		F6881135208B4C8100088F6C /* LGAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F6881134208B4C8100088F6C /* LGAudioPlayer.m */; };
+		F688113B208B4D2B00088F6C /* LGVoiceRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = F688113A208B4D2B00088F6C /* LGVoiceRecorder.m */; };
+		F6881142208B4DF100088F6C /* PIVoiceRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6881140208B4DF100088F6C /* PIVoiceRecordView.m */; };
+		F6881146208B536700088F6C /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F6881145208B536700088F6C /* UIColor+Addition.m */; };
+		F688114E208B5F3200088F6C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F688114D208B5F3200088F6C /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14F96A662BC68BE0AB8D3351 /* libPods-LGVoiceRecordDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGVoiceRecordDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		575860253EC37879ED10AC01 /* Pods-LGVoiceRecordDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGVoiceRecordDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGVoiceRecordDemo/Pods-LGVoiceRecordDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B707D3D3339BACCA00106966 /* Pods-LGVoiceRecordDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGVoiceRecordDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGVoiceRecordDemo/Pods-LGVoiceRecordDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F6625EB3208B44E0004A151E /* LGVoiceRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGVoiceRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6625EB6208B44E0004A151E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6625EB7208B44E0004A151E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6625EB9208B44E0004A151E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6625EBA208B44E0004A151E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6625EBF208B44E2004A151E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6625EC4208B44E2004A151E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6625EC5208B44E2004A151E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6881130208B4BE500088F6C /* PIVoiceRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIVoiceRecordViewController.h; sourceTree = "<group>"; };
+		F6881131208B4BE500088F6C /* PIVoiceRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIVoiceRecordViewController.m; sourceTree = "<group>"; };
+		F6881133208B4C8100088F6C /* LGAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGAudioPlayer.h; sourceTree = "<group>"; };
+		F6881134208B4C8100088F6C /* LGAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGAudioPlayer.m; sourceTree = "<group>"; };
+		F6881139208B4D2B00088F6C /* LGVoiceRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGVoiceRecorder.h; sourceTree = "<group>"; };
+		F688113A208B4D2B00088F6C /* LGVoiceRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGVoiceRecorder.m; sourceTree = "<group>"; };
+		F688113E208B4DF100088F6C /* PIVoiceRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIVoiceRecordView.h; sourceTree = "<group>"; };
+		F6881140208B4DF100088F6C /* PIVoiceRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIVoiceRecordView.m; sourceTree = "<group>"; };
+		F6881144208B536700088F6C /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		F6881145208B536700088F6C /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		F6881148208B588500088F6C /* VoiceRecordDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceRecordDemo.pch; sourceTree = "<group>"; };
+		F688114D208B5F3200088F6C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6625EB0208B44E0004A151E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5113BE00E310012FD60FDA /* libPods-LGVoiceRecordDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BF93CBFD669F6AAC006F8D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14F96A662BC68BE0AB8D3351 /* libPods-LGVoiceRecordDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5345564B39E9E4EA8276FFB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				575860253EC37879ED10AC01 /* Pods-LGVoiceRecordDemo.debug.xcconfig */,
+				B707D3D3339BACCA00106966 /* Pods-LGVoiceRecordDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6625EAA208B44E0004A151E = {
+			isa = PBXGroup;
+			children = (
+				F6625EB5208B44E0004A151E /* LGVoiceRecordDemo */,
+				F6625EB4208B44E0004A151E /* Products */,
+				5345564B39E9E4EA8276FFB2 /* Pods */,
+				1BF93CBFD669F6AAC006F8D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6625EB4208B44E0004A151E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6625EB3208B44E0004A151E /* LGVoiceRecordDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6625EB5208B44E0004A151E /* LGVoiceRecordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F6881143208B531F00088F6C /* Util */,
+				F688113C208B4DF100088F6C /* 录音 */,
+				F6625ECE208B4537004A151E /* Player */,
+				F6625ECC208B4517004A151E /* Recorder */,
+				F6881130208B4BE500088F6C /* PIVoiceRecordViewController.h */,
+				F6881131208B4BE500088F6C /* PIVoiceRecordViewController.m */,
+				F6625EB6208B44E0004A151E /* AppDelegate.h */,
+				F6625EB7208B44E0004A151E /* AppDelegate.m */,
+				F6625EB9208B44E0004A151E /* ViewController.h */,
+				F6625EBA208B44E0004A151E /* ViewController.m */,
+				F6625EBF208B44E2004A151E /* Assets.xcassets */,
+				F6625EC4208B44E2004A151E /* Info.plist */,
+				F6625EC5208B44E2004A151E /* main.m */,
+				F6881148208B588500088F6C /* VoiceRecordDemo.pch */,
+				F688114D208B5F3200088F6C /* Launch Screen.storyboard */,
+			);
+			path = LGVoiceRecordDemo;
+			sourceTree = "<group>";
+		};
+		F6625ECC208B4517004A151E /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				F6881139208B4D2B00088F6C /* LGVoiceRecorder.h */,
+				F688113A208B4D2B00088F6C /* LGVoiceRecorder.m */,
+			);
+			path = Recorder;
+			sourceTree = "<group>";
+		};
+		F6625ECE208B4537004A151E /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				F6881133208B4C8100088F6C /* LGAudioPlayer.h */,
+				F6881134208B4C8100088F6C /* LGAudioPlayer.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		F688113C208B4DF100088F6C /* 录音 */ = {
+			isa = PBXGroup;
+			children = (
+				F688113E208B4DF100088F6C /* PIVoiceRecordView.h */,
+				F6881140208B4DF100088F6C /* PIVoiceRecordView.m */,
+			);
+			path = "录音";
+			sourceTree = "<group>";
+		};
+		F6881143208B531F00088F6C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F6881144208B536700088F6C /* UIColor+Addition.h */,
+				F6881145208B536700088F6C /* UIColor+Addition.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6625EB2208B44E0004A151E /* LGVoiceRecordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6625EC9208B44E2004A151E /* Build configuration list for PBXNativeTarget "LGVoiceRecordDemo" */;
+			buildPhases = (
+				518233DD092D5C1FCBF413AF /* [CP] Check Pods Manifest.lock */,
+				F6625EAF208B44E0004A151E /* Sources */,
+				F6625EB0208B44E0004A151E /* Frameworks */,
+				F6625EB1208B44E0004A151E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGVoiceRecordDemo;
+			productName = LGVoiceRecordDemo;
+			productReference = F6625EB3208B44E0004A151E /* LGVoiceRecordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6625EAB208B44E0004A151E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = inter;
+				TargetAttributes = {
+					F6625EB2208B44E0004A151E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = F6625EAE208B44E0004A151E /* Build configuration list for PBXProject "LGVoiceRecordDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6625EAA208B44E0004A151E;
+			productRefGroup = F6625EB4208B44E0004A151E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6625EB2208B44E0004A151E /* LGVoiceRecordDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6625EB1208B44E0004A151E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F688114E208B5F3200088F6C /* Launch Screen.storyboard in Resources */,
+				F6625EC0208B44E2004A151E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		518233DD092D5C1FCBF413AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LGVoiceRecordDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6625EAF208B44E0004A151E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6625EBB208B44E0004A151E /* ViewController.m in Sources */,
+				F6881146208B536700088F6C /* UIColor+Addition.m in Sources */,
+				F6625EC6208B44E2004A151E /* main.m in Sources */,
+				F688113B208B4D2B00088F6C /* LGVoiceRecorder.m in Sources */,
+				F6625EB8208B44E0004A151E /* AppDelegate.m in Sources */,
+				F6881135208B4C8100088F6C /* LGAudioPlayer.m in Sources */,
+				F6881132208B4BE500088F6C /* PIVoiceRecordViewController.m in Sources */,
+				F6881142208B4DF100088F6C /* PIVoiceRecordView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F6625EC7208B44E2004A151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6625EC8208B44E2004A151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6625ECA208B44E2004A151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575860253EC37879ED10AC01 /* Pods-LGVoiceRecordDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS92JV82H3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LGVoiceRecordDemo/VoiceRecordDemo.pch";
+				INFOPLIST_FILE = LGVoiceRecordDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inter.LGVoiceRecordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6625ECB208B44E2004A151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B707D3D3339BACCA00106966 /* Pods-LGVoiceRecordDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS92JV82H3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LGVoiceRecordDemo/VoiceRecordDemo.pch";
+				INFOPLIST_FILE = LGVoiceRecordDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inter.LGVoiceRecordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6625EAE208B44E0004A151E /* Build configuration list for PBXProject "LGVoiceRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6625EC7208B44E2004A151E /* Debug */,
+				F6625EC8208B44E2004A151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6625EC9208B44E2004A151E /* Build configuration list for PBXNativeTarget "LGVoiceRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6625ECA208B44E2004A151E /* Debug */,
+				F6625ECB208B44E2004A151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6625EAB208B44E0004A151E /* Project object */;
+}
