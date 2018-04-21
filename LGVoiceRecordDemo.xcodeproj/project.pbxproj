@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1D5113BE00E310012FD60FDA /* libPods-LGVoiceRecordDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F96A662BC68BE0AB8D3351 /* libPods-LGVoiceRecordDemo.a */; };
 		F6625EB8208B44E0004A151E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6625EB7208B44E0004A151E /* AppDelegate.m */; };
-		F6625EBB208B44E0004A151E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6625EBA208B44E0004A151E /* ViewController.m */; };
 		F6625EC0208B44E2004A151E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6625EBF208B44E2004A151E /* Assets.xcassets */; };
 		F6625EC6208B44E2004A151E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6625EC5208B44E2004A151E /* main.m */; };
 		F6881132208B4BE500088F6C /* PIVoiceRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6881131208B4BE500088F6C /* PIVoiceRecordViewController.m */; };
@@ -27,8 +26,6 @@
 		F6625EB3208B44E0004A151E /* LGVoiceRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGVoiceRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6625EB6208B44E0004A151E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6625EB7208B44E0004A151E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F6625EB9208B44E0004A151E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F6625EBA208B44E0004A151E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F6625EBF208B44E2004A151E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6625EC4208B44E2004A151E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6625EC5208B44E2004A151E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,16 +93,14 @@
 		F6625EB5208B44E0004A151E /* LGVoiceRecordDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F6881143208B531F00088F6C /* Util */,
-				F688113C208B4DF100088F6C /* 录音 */,
 				F6625ECE208B4537004A151E /* Player */,
 				F6625ECC208B4517004A151E /* Recorder */,
+				F6881143208B531F00088F6C /* Util */,
+				F688113C208B4DF100088F6C /* View */,
 				F6881130208B4BE500088F6C /* PIVoiceRecordViewController.h */,
 				F6881131208B4BE500088F6C /* PIVoiceRecordViewController.m */,
 				F6625EB6208B44E0004A151E /* AppDelegate.h */,
 				F6625EB7208B44E0004A151E /* AppDelegate.m */,
-				F6625EB9208B44E0004A151E /* ViewController.h */,
-				F6625EBA208B44E0004A151E /* ViewController.m */,
 				F6625EBF208B44E2004A151E /* Assets.xcassets */,
 				F6625EC4208B44E2004A151E /* Info.plist */,
 				F6625EC5208B44E2004A151E /* main.m */,
@@ -133,13 +128,13 @@
 			path = Player;
 			sourceTree = "<group>";
 		};
-		F688113C208B4DF100088F6C /* 录音 */ = {
+		F688113C208B4DF100088F6C /* View */ = {
 			isa = PBXGroup;
 			children = (
 				F688113E208B4DF100088F6C /* PIVoiceRecordView.h */,
 				F6881140208B4DF100088F6C /* PIVoiceRecordView.m */,
 			);
-			path = "录音";
+			path = View;
 			sourceTree = "<group>";
 		};
 		F6881143208B531F00088F6C /* Util */ = {
@@ -242,7 +237,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6625EBB208B44E0004A151E /* ViewController.m in Sources */,
 				F6881146208B536700088F6C /* UIColor+Addition.m in Sources */,
 				F6625EC6208B44E2004A151E /* main.m in Sources */,
 				F688113B208B4D2B00088F6C /* LGVoiceRecorder.m in Sources */,
