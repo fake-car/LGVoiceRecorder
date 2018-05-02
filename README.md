@@ -8,4 +8,4 @@ LGAudioPlayer 是在AVPlayer基础上的简单封装,支持本地和网络音频
 
 演示效果
 
-![Image text](http://www.code4app.com/data/attachment/forum/201804/25/103245zqctq8q17c5y9179.gif)
+![Image text](https://wx4.sinaimg.cn/mw690/8d56fbb6ly1fqwvdmm18dg20hs0qohdv.gif)
