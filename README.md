@@ -7,7 +7,7 @@
 
 
 - LGAudioPlayer 
-  > 是在AVPlayer基础上的简单封装,支持本地和网络音频的播放 (Simple encapsulation based on AVPlayer, supporting local and network audio playback)
+  > 是在AVPlayer基础上的简单封装,支持本地和网络音频的播放 (Simple encapsulation based on AVPlayer, supports local and network audio playback)
 
 - 演示效果 (Effect)
 
